@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+;1 -> REG_SZ
+;2 -> REG_BINARY
+;3 -> REG_DWORD
+;4 -> REG_QWORD
+;5 -> REG_MULTI_SZ
+;6 -> REG_EXPAND_SZ
+
+[-HKEY_CURRENT_USER\Test]
+"New Value #1"="123"
+"New Value #2"=hex:
+"New Value #3"=dword:00000123
+"New Value #4"=hex(b):23,01,00,00,00,00,00,00
+"New Value #5"=hex(7):00,00
+"New Value #6"=hex(2):00,00
